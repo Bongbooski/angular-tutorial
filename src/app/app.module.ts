@@ -17,10 +17,10 @@ import { AppRoutingModule } from './/app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent,
+    MessagesComponent
   ],
   imports: [
   BrowserModule,
