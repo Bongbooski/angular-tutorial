@@ -15,6 +15,7 @@ import { MessagesComponent } from './messages/messages.component';
 
 import { AppRoutingModule } from './/app-routing.module';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { BooskiPipe } from './booski.pipe';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    BooskiPipe
   ],
   imports: [
   BrowserModule,
